@@ -1,0 +1,262 @@
+{
+    "emails": [
+        {
+            "id": 0,
+            "title": "Enter the Upwork Coding Challenge!",
+            "sender": "dmitry.goncharenko24@gmail.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "We’d like to directly invite you to the first Upwork Coding Challenge! This will take place on June 5th starting at 8:00pm PST. Upwork is a community for independent developers to thrive, and we want to recognize and reward the best programmers on our platform.This first challenge, powered by HackerRank, will consist of programming problems with increasing levels of difficulty. You can choose to solve the problems using over 20 different programming languages. Here is a sample problem for you to see if this challenge is for you.If you are a top-scoring developer, you’ll receive a 'Top Dev' badge on your profile—boosting your visibility and exposure on Upwork.And if that wasn't sweet enough, we’ll also give $1,500, $1,000 and $500 to the first, second, and third place contestants.",
+            "folder": "inbox",
+            "date": "6/5/2015",
+            "time": "7:13",
+            "labels": [
+                {
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Upcoming events: June 4, 2015",
+            "sender": "events@atlassian.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "Join us for this year's largest gathering of Atlassian users and product gurus. Whether your team is building great software, delivering IT services, or simply driving change in the modern workplace, Atlassian Summit has something for you. Why not save $200 while you're at it? Early Bird registration ends on June 30th. \r\n ",
+            "folder": "drafts",
+            "date": "6/4/2015",
+            "time": "18:18",
+            "labels": [
+                {
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "[Bitbucket] SSH key added to gdmitry",
+            "sender": "notifications-noreply@bitbucket.org",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "An SSH key was added to account gdmitry: ssh-rsa AAAAB3NzaC1yc2EA ... nnlp1lT4KtovLH1Ew== Dima@DIMA-PC Users with this key can access all of the repositories that gdmitry can access.",
+            "folder": "sent",
+            "date": "6/5/2015",
+            "time": "7:13",
+            "labels": [
+                {
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Добро пожаловать в новую Livemocha!",
+            "sender": "email@email.livemocha.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "Добро пожаловать в новую Livemocha! Новый облик, больше интеллекта В следующий раз, когда вы зайдете на Livemocha.com, вас ждет нечто восхитительное. Теперь она проще, понятнее и удобнее в использовании. И даже быстрее. Мы надеемся, вы согласитесь с тем, что эти изменения делают лучше работу с Livemocha.",
+            "folder": "drafts",
+            "date": "6/5/2015",
+            "time": "7:13",
+            "labels": [
+                {
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Verify your email address",
+            "sender": "account-security-noreply@account.microsoft.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "Verify your email address To finish setting up this Microsoft account, we just need to make sure this email address is yours. Verify dmitrii-goncharenko@mail.ru Or you may be asked to enter this security code: 0146 If you didn't make this request, click here to cancel.",
+            "folder": "inbox",
+            "date": "6/10/2015",
+            "time": "0:30",
+            "labels": [
+                {
+                    "id": 1
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Officially introducing Lucidchart for Enterprise",
+            "sender": "support@lucidchart.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "Introducing Lucidchart for Enterprise Today we’re excited to announce Lucidchart for Enterprise, a new account level that enables companies to easily and securely migrate their diagramming to Lucidchart. Admins will have complete peace of mind, and users will enjoy newfound productivity with our collaborative, easy-to-use tool. For years, we've had the functionality and capacity to serve large organizations. But now that Lucidchart has more than 4 million users, our customers have increasingly asked for greater visibility and control, and we're happy to deliver.",
+            "folder": "sent",
+            "date": "6/4/2015",
+            "time": "8:50",
+            "labels": [
+                {
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Pick Your Business Track",
+            "sender": "noreply@coursera.org",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "Grow Your Business Skills Whether you’re building a company, changing careers, or restructuring your family finances, Coursera’s business Specializations can help you get started. With course sequences and hands-on projects designed by top universities and companies, you’ll build practical skills that stand out in today’s diverse economy.",
+            "folder": "sent",
+            "date": "6/4/2015",
+            "time": "14:02",
+            "labels": [
+                {
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "[GitHub] A new public key was added to your account",
+            "sender": "support@lucidchart.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "The following SSH key was added to your account: Home public key 2d:ad:bf:33:38:b0:55:6f:19:d1:f6:e9:27:c5:c9:08 If you believe this key was added in error, you can remove the key and disable access at the following location:",
+            "folder": "sent",
+            "date": "6/4/2015",
+            "time": "8:50",
+            "labels": [
+                {
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Вебинар 17.06.15 'Introduction to Automation Testing'",
+            "sender": "support@lucidchart.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "Вебинар посвящен аспектам внедрения процесса автоматизированноготестирования на проекте и вопросам, связанным с этим процессом. Этот вебинар будет интересен тем, кто планирует или задумывается о внедрении процесса автоматизированного тестирования на проекте, а также всем тем, кто хочет получить базовые знания о данном виде тестирования программного обеспечения.",
+            "folder": "sent",
+            "date": "6/4/2015",
+            "time": "8:50",
+            "labels": [
+                {
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Welcome to Visual Studio",
+            "sender": "support@lucidchart.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "Now when you sign in to Visual Studio, IDE settings like your theme and editor preferences will sync across all the machines you work on. See how it works and learn about some of the other great features in Visual Studio. If you haven't already, your next step is to get a FREE Visual Studio Online account, with Visual Studio Online you can Create and host private source code repos in the cloud, including Git. Keep yourself and your team on track with agile planning tools. Invite others to collaborate on your project.And so much more!",
+            "folder": "trash",
+            "date": "5/15/2015",
+            "time": "15:03",
+            "labels": [
+                {
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Split an Array according to Length",
+            "sender": "groups-noreply@linkedin.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "This is one of the question I was asked in one interview. Even I know that it should not be a practice to handle an OutOfMemoryError scenario but is it possible to give any custom message to client...",
+            "folder": "sent",
+            "date": "6/4/2015",
+            "time": "8:50",
+            "labels": [
+                {
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Officially introducing Lucidchart for Enterprise",
+            "sender": "support@lucidchart.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "",
+            "folder": "sent",
+            "date": "6/4/2015",
+            "time": "8:50",
+            "labels": [
+               {
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Officially introducing Lucidchart for Enterprise",
+            "sender": "support@lucidchart.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "",
+            "folder": "sent",
+            "date": "6/4/2015",
+            "time": "8:50",
+            "labels": [
+                {
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Officially introducing Lucidchart for Enterprise",
+            "sender": "support@lucidchart.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "",
+            "folder": "sent",
+            "date": "6/4/2015",
+            "time": "8:50",
+            "labels": [
+               {
+                    "id": 0
+                },
+                {
+                    "id": 1
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Officially introducing Lucidchart for Enterprise",
+            "sender": "support@lucidchart.com",
+            "to": "dmitrii-goncharenko@mail.ru",
+            "message": "",
+            "folder": "sent",
+            "date": "6/4/2015",
+            "time": "8:50",
+            "labels": [
+                {
+                    "id": 2
+                }
+            ]
+        }
+
+    ],
+
+    "labels": [
+        {
+            "id": 0,
+            "name": "Work",
+            "color": "#090974"
+        },
+        {
+            "id": 1,
+            "name": "Important",
+            "color": "#FFD240"
+        },
+        {
+            "id": 2,
+            "name": "Personal",
+            "color": "#FF7373"
+        },
+        {
+            "id": 3,
+            "name": "Home",
+            "color": "#C4F83E"
+        },
+        {
+            "id": 3,
+            "name": "Red",
+            "color": "#E6399B"
+        }
+    ]
+
+}

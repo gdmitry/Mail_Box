@@ -1,0 +1,9 @@
+{
+    "folders": [
+        { "name": "inbox", "displayName": "Inbox" },
+        { "name": "sent", "displayName": "Sent" },
+        { "name": "drafts", "displayName": "Drafts" },
+        { "name": "trash", "displayName": "Trash" }
+    ]
+
+}

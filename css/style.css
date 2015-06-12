@@ -1,0 +1,336 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ------------------------ Custom CSS 
+---------------------------------------------------------------------------- */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+    width: 100%;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    height: 55px;
+    background: #c0c0c0;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+    width: 100%;
+    position: relative;
+}
+
+    .middle:after {
+        display: table;
+        clear: both;
+        content: '';
+    }
+
+.container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.content {
+    padding: 0 0 0 220px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+    float: left;
+    width: 220px;
+    margin-left: -100%;
+    position: relative;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+    height: 100px;
+    background: #BFF08E;
+}
+
+
+/* ---------------------- My CSS
+-----------------------------------------------------------------------------*/
+
+.middle {
+    height: calc(100vh - 55px);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../fontsfonts/MyriadWebPro-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/MyriadWebPro-Bold.eot?') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/MyriadWebPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/MyriadWebPro-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/MyriadWebPro-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/MyriadWebPro-Bold.svg#MyriadWebPro-Bold') format('svg'); /* Legacy iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../fonts/MyriadPro-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/MyriadPro-Regular.eot?') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/MyriadPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/MyriadPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+button {
+    background: #3498DB linear-gradient(to bottom, #21679B, #1B5682) repeat scroll 0% 0%;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px #889FB6;
+    color: #FFF;
+    padding: 5px 10px;
+    border: 1px solid #1F1F1F;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+    button:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+    }
+
+
+/* ---------------------------- Menu
+--------------------------------------------------------------------- */
+ul {
+    word-wrap: break-word;
+}
+
+.left-sidebar {
+    height: calc(100vh - 33px);
+    background: #34313a;
+}
+
+    .left-sidebar .menu {
+        font-family: Colibri, Arial;
+        font-style: normal;
+        font-weight: normal;
+        color: #6b6774;
+    }
+
+.mailboxes .item, .marked .item {
+    padding: 5px;
+    padding-right: 20px;
+}
+
+    .mailboxes .item:hover, .marked .item:hover {
+        background: #4488f8;
+        cursor: pointer;
+    }
+
+        .mailboxes .item:hover a, .marked .item:hover a {
+            color: #ffffff;
+        }
+
+.menu .submenu .submenu-title {
+    background: #3b3841;
+    padding: 10px;
+}
+
+.menu .submenu .submenu-title, .mailboxes .item, .marked .item {
+    padding-left: 15px;
+}
+
+.delete {
+    width: 20px;
+    float: right;
+}
+
+.add {
+      cursor: pointer;
+}
+
+.marked .item .icon {
+    background: red;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.menu .item a {
+    color: #6b6774;
+    font-size: 1.5em;
+}
+
+.menu .submenu, .menu .submenu .submenu-title {
+    margin-bottom: 15px;
+}
+
+    .menu .submenu .submenu-title h2 {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+.submenu .compose, .submenu .create-label {
+    margin-left: 15px;
+}
+
+/* ---------------------------- Content
+--------------------------------------------------------------------- */
+.content .email-details, .content .emails {
+    font-family: Arial, MyriadPro;
+    font-style: normal;
+    font-weight:normal;
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    background: #ffffff;
+}
+
+.content .emails {
+    margin-right: 20px;
+    
+}
+
+.content .email-details {
+    width: 60%;
+    padding-top: 20px;
+}
+
+.emails {
+    height: calc(100vh - 55px);
+    overflow: auto;
+}
+
+    .emails .item {
+        padding-bottom: 10px;
+      
+    }
+
+        .emails .item .email {
+            padding: 10px;
+              height: 100px;
+        overflow:hidden;
+        }
+
+    .emails div .date {
+        text-align: center;
+        background-color: #e2dfe8;
+        padding: 10px;
+        color: #6b6774;
+    }
+
+.notactive a {
+    color: red !important;
+    text-decoration: line-through;
+}
+
+.selectedMail{
+    background: #4488f8;
+}
+
+.selectedFolder{
+    background: #2d2a32;
+}
+
+/* ---------------------------- Mail View
+--------------------------------------------------------------------- */
+
+.email-details .email-view .title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.email-details .email-view .message, .email-details .email-edit .labels{
+    margin-bottom: 20px;
+}
+
+.email-details .email-view .datatime {    
+    margin-bottom: 0.5em;
+}
+
+.email-details .email-view .to {    
+    margin-bottom: 1em;
+}
+
+.email-details .email-edit .message {
+    border: 1px solid;
+}

@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Mailbox</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header class="header"></header><!-- .header-->
+
+        <div class="middle">
+
+            <div class="container">
+                <main class="content">
+
+                    <div class="emails" data-bind="foreach: emails">
+                        <div class="item" data-bind=" css: {selectedMail: id == $root.email().id}">
+                            <div class="date" >
+                                <span data-bind="text: date"></span>
+                                <img data-bind="click: function() { folder= 'trash'; $root.folder($root.folder());}" class="delete" src="images/delete_icon.png" />
+                            </div>
+                            <div class="email" data-bind="click: function(email) {$root.email(email) }">
+                                <div class="title" data-bind="text: title">
+                                </div>
+                                <div class="datatime" data-bind="text: date + ', ' + time">
+                                </div>
+                                <div class="sender" data-bind="text: 'From: ' + sender">
+                                </div>
+                                <div class="to" data-bind="text: 'To: ' + to">
+                                </div>
+                                <div class="message" data-bind="text: message">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="email-details">
+                        <div class="email-view" data-bind="visible: isVisibleEmailDetails, with: email">
+                            <div class="title" data-bind="text: title">
+                            </div>
+                            <div class="datatime" data-bind="text: date + ', ' + time">
+                            </div>
+                            <div class="sender" data-bind="text: 'From: ' + sender">
+                            </div>
+                            <div class="to" data-bind="text: 'To: ' + to">
+                            </div>
+                            <div class="message" data-bind="text: message">
+                            </div>
+                            <button class="compose" data-bind=" visible: folder == 'drafts', click: function(email) { $root.sendMail(email); }">Send</button>
+                        </div>
+                        <div class="email-edit" data-bind="visible: isVisibleEditEmails, with: editMail">
+                            <form>
+                                Title:<br>
+                                <input type="text" name="title" data-bind="value: title"><br>
+                                Sender:<br>
+                                <input type="text" name="sender" data-bind="value: sender"><br>
+                                To:<br>
+                                <input type="text" name="to" data-bind="value: to"><br>
+                                Message:<br>
+                                <textarea name="textarea" class="message" rows="10" cols="50" data-bind="value: message"></textarea><br>
+                                Labels:<br>
+                                <ul class="labels" data-bind="foreach: $root.labels">
+                                    <li>
+                                        <input type="checkbox"
+                                               data-bind="checkedValue: {'id': id}, checked: $root.selectedLabels">
+                                        <span data-bind="text: name"></span>
+                                    </li>
+                                </ul>
+                            </form>
+                            <button class="compose" data-bind="click: function() { $root.saveMail(); }">Save</button>
+                            <button class="compose" data-bind="click: function() {  $root.isVisibleEditEmails(false);}">Cancel</button>
+                        </div>
+                    </div>
+
+                </main><!-- .content -->
+            </div><!-- .container-->
+
+            <aside class="left-sidebar">
+                <ul class="menu">
+                    <li class="submenu">
+                        <div class="submenu-title">
+                            <h2>MAILBOXES</h2>
+                            <img data-bind="click: function(label) { $root.createFolder(); }" class="delete add" src="images/add-icon.png" />
+                        </div>
+                        <button class="compose" data-bind="click: function() { $root.compose(); }">Compose</button>
+                        <ul class="mailboxes" data-bind="foreach: folders">
+                            <li class="item" data-bind="css: {selectedFolder: name==$root.folder().name}, click: function(folder) { $root.folder(folder); }"><a data-bind="text: displayName"></a><img data-bind=" visible: isDeletable == 'yes' , click: function(folder){$root.deleteFolder(folder);}" class="delete" src="images/delete_icon.png" /></li>
+                        </ul>
+                    </li>
+                    <li class="submenu">
+                        <div class="submenu-title">
+                            <h2>MARKED</h2>
+                            <img data-bind="click: function() { $root.createLabel(); }" class="delete add" src="images/add-icon.png" />
+                        </div>
+                        <ul class="marked" data-bind="foreach: labels">
+                            <li class="item" data-bind=" css: {active: status() == 'enabled', notactive: status() == 'disabled'}"><img data-bind=" style: {background: color }, click: function() { changeColor(); }" class="icon" /><a data-bind="text: name, click: function() { changeStatus(); }"></a><img data-bind="click: function(label) { $root.deleteLabel(label); }" class="delete" src="images/delete_icon.png" /></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </aside><!-- .left-sidebar -->
+
+        </div><!-- .middle-->
+
+    </div><!-- .wrapper -->
+    <script type='text/javascript' src="lib/jquery-1.11.2.min.js"></script>
+    <script type='text/javascript' src='lib/knockout.js'></script>
+    <script data-main="main" src="lib/require.js"></script>
+</body>
+</html>

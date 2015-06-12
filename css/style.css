@@ -51,8 +51,6 @@ table {
     border-spacing: 0;
 }
 
-/* ------------------------ Custom CSS 
----------------------------------------------------------------------------- */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
 }
@@ -118,7 +116,7 @@ body {
 }
 
 
-/* ---------------------- My CSS
+/* ---------------------- Custom CSS
 -----------------------------------------------------------------------------*/
 
 .middle {
